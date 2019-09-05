@@ -118,15 +118,32 @@
         </div>
 
               <div class="contact">
+                  <div class="column">
                   <div class="container">
                           <p ><b> Please extend job opening invitation to me</b></p>
-                          <form action="" id="">
+
+                          <form action="#">
+                              <label for="name">Name</label>
+                              <input type="text" id="name" name="firstname" placeholder="Your name please" minlength="4" required>
+                              
+                              <label for="email">Email</label>
+                              <input type="text" id="email" name="email" required>
+                              
+                              <label for="title">Title</label>
+                              <input type="text" id="title" name="title" required>
+    
+                              <label for="messgae">Messgae</label>
+                              <textarea id="messgae" name="message" placeholder="Write the messgae.." style="height:170px" required minlength="20"></textarea>
+                              <input type="submit" value="Submit">
+                            </form>
+                          <!-- <form action="" id="">
                             <b>Name of Company: <input type="text" name="usrname"></b>
                           <b><p><textarea rows="6" cols="50" name="comment" form="usrform">
                           Drop a short message... Thanks</textarea></b></p>
                           <input type="submit" >
-                          </form>
+                          </form> -->
                           <br>
+                  </div>
                   </div>
             </div>  
 
