@@ -9,7 +9,6 @@ body {
     box-sizing: border-box;
   }
   
-
 p, blockquote {
     font-size: .9em;
     line-height: 1.6em;
@@ -120,15 +119,15 @@ h2, .subhead {
     background: #30444A;
     color: white;
     padding: 3em 0;
-    /* border-top-right-radius: 40px;
-    transform: skewY(2deg); */
+    border-top-right-radius: 40px;
+    transform: skewY(2deg);
 }
 
-/* .footer-container .container {
+.footer-container .container {
     transform: skewY(-2deg);
-} */
+}
 
-/* .footer-container::before {
+.footer-container::before {
     content: "";
     width: 40px;
     height: 40px;
@@ -138,9 +137,9 @@ h2, .subhead {
     left: 0;
     z-index: -2;
     
-} */
+}
 
-/* .footer-container:after {
+.footer-container:after {
     content: "";
     width: 80px;
     height: 80px;
@@ -149,7 +148,7 @@ h2, .subhead {
     top: -80px;
     left: 0;
     border-radius: 50%;
-} */
+}
 
 ul .footer-links {
     margin: 0 auto;
